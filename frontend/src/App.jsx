@@ -30,7 +30,9 @@ function App() {
     console.log(name, value);
   };
 
-  const onSubmit = () => {};
+  const onSubmit = () => {
+    console.log("Submitted data");
+  };
 
   const onAdd = () => {
     console.log("Clicked add button");
